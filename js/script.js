@@ -9,10 +9,12 @@
 		var objeto = JSON.parse(json_texto); 
 		empleados = objeto.employees;
 		cantidad_empleados = objeto.employees.length;
+		var mostrar = "";
 
 		for (var e=0; e<cantidad_empleados; e++) {
-			alert("Mi apellido es: "+empleados[e].lastName+" y mi nombre es: "+empleados[e].firstName);
+			mostrar = mostrar + "Mi nombre es: "+empleados[e].firstName+" y mi apellido es: "+empleados[e].lastName + "\n";
 		}
+		alert(mostrar);
 	}; 
 
 	document.getElementById('sintaxis_javascript').addEventListener('click', section_one);
