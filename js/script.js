@@ -11,7 +11,7 @@
 		cantidad_empleados = objeto.employees.length;
 
 		for (var e=0; e<cantidad_empleados; e++) {
-			alert("Mi nombre es: "+empleados[e].firstName+" y mi apellido es: "+empleados[e].lastName);
+			alert("Mi apellido es: "+empleados[e].lastName+" y mi nombre es: "+empleados[e].firstName);
 		}
 	}; 
 
